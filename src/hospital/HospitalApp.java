@@ -10,6 +10,10 @@ public class HospitalApp {
                 LaboratoryTechnician("L001", "Laboratory", 8);
 
         // Display information and duties for each staff member
+        System.out.println("===== MUKONO HOSPITAL STAFF =====");
+        System.out.println();
+
+
         doctor.displayStaffInfo();
         doctor.performDuties();
 
