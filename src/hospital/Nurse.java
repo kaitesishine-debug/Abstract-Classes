@@ -11,6 +11,6 @@ public class Nurse extends MedicalStaff {
     // Defines the duties performed by a nurse
     @Override
     public void performDuties() {
-        System.out.println("Nurse cares for patients and monitors their recovery.");
+        System.out.println("Nurse in " + department + "cares for patients and monitors their recovery.");
     }
 }

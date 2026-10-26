@@ -11,6 +11,6 @@ public class Doctor extends MedicalStaff {
     // Defines the duties performed by a doctor
     @Override
     public void performDuties() {
-        System.out.println("Doctor diagnoses and treats patients.");
+        System.out.println("Doctor in " + department + "diagnoses and treats patients.");
     }
 }
