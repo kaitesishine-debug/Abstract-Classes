@@ -15,6 +15,13 @@ public abstract class MedicalStaff {
         this.workingHours = workingHours;
     }
 
-    // Eac medical staff category must define it's own duties
+    // Display all information shared by all medical staff
+    public void displayStaffInfo() {
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Department: " + department);
+        System.out.println("Working Hours: " + workingHours);
+    }
+
+    // Each medical staff category must define it's own duties
     public abstract void performDuties();
 }
