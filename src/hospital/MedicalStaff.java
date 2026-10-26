@@ -1,6 +1,7 @@
 package hospital;
 
-// Abstract parent class for all medical staff
+// Abstract parent class: prevents direct creation of generic medical staff
+// and requires concrete subclasses to define their duties.
 public abstract class MedicalStaff {
 
     // Common information shared by all medical staff
