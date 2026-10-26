@@ -13,6 +13,13 @@ public class HospitalApp {
         System.out.println("===== MUKONO HOSPITAL STAFF =====");
         System.out.println();
 
+        verifyStaff(doctor);
+        verifyStaff(nurse);
+        verifyStaff(pharmacist);
+        verifyStaff(laboratoryTechnician);
+
+        System.out.println();
+
 
         doctor.displayStaffInfo();
         doctor.performDuties();
@@ -34,5 +41,15 @@ public class HospitalApp {
 
 
 
+    }
+    // Confirms that a staff member has valid common information
+    public static void verifyStaff(MedicalStaff staff) {
+        if (staff.employeeId != null && !staff.employeeId.isEmpty()) {
+            System.out.println("Staff verification successful: "
+            + staff.employeeId);
+        } else {
+            System.out.println("Staff verification failed.");
+
+        }
     }
 }
