@@ -2,6 +2,8 @@ package hospital;
 
 public class LaboratoryTechnician extends MedicalStaff {
 
+
+    // Uses the parent constructor to initialize common stuff details
     public LaboratoryTechnician(String employeeId, String department, int workingHours) {
         super(employeeId, department, workingHours);
     }
