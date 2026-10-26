@@ -5,7 +5,7 @@ public class Nurse extends MedicalStaff {
 
     // Initializes the nurse's common staff information
     public Nurse(String employeeId, String department, int workingHours) {
-        super((employeeId, department, workingHours);
+        super(employeeId, department, workingHours);
     }
 
     // Defines the duties performed by a nurse
